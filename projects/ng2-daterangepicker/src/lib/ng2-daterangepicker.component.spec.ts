@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { DaterangepickerComponent } from './ng2-daterangepicker.component';
 
@@ -6,7 +6,7 @@ describe('Ng2DaterangepickerComponent', () => {
   let component: DaterangepickerComponent;
   let fixture: ComponentFixture<DaterangepickerComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DaterangepickerComponent]
     })
