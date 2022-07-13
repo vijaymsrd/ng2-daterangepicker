@@ -3,7 +3,6 @@ ng2-daterangepicker
 
 ![Daterange Picker](https://raw.githubusercontent.com/evansmwendwa/ng2-daterangepicker/master/projects/ng2-daterangepicker/assets/screen-shot.png)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
 ## Version 13.0.0 adds support for Angular 13.0 
 
@@ -13,9 +12,8 @@ I have not made efforts to test earlier versions of angular with version 3.x of 
 
 Use your preferred package manager
 ```
-npm install ng2-daterangepicker
-yarn add ng2-daterangepicker
-ng add ng2-daterangepicker
+npm install https://github.com/vijaymsrd/ng2-daterangepicker13.git --save
+
 ```
 
 #### peerDependencies
