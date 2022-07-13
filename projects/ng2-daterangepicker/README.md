@@ -3,9 +3,7 @@ ng2-daterangepicker
 
 ![Daterange Picker](https://raw.githubusercontent.com/evansmwendwa/ng2-daterangepicker/master/projects/ng2-daterangepicker/assets/screen-shot.png)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
-
-## Version 3.0.0 adds support for Angular 9.0 Ivy compiler
+## Version 13.0.0 adds support for Angular 13.0 
 
 I have not made efforts to test earlier versions of angular with version 3.x of this package but it should still work.
 

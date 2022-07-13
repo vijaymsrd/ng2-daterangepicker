@@ -1,3 +1,4 @@
+/* eslint-disable @angular-eslint/component-selector */
 import { Component } from '@angular/core';
 import moment from 'moment';
 import { DaterangepickerConfig } from "../../projects/ng2-daterangepicker/src/lib/ng2-daterangepicker.service";

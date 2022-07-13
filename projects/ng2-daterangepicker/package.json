@@ -5,12 +5,12 @@
   "homepage": "https://github.com/evansmwendwa/ng2-daterangepicker#readme",
   "license": "MIT",
   "dependencies": {
-    "daterangepicker": "^3.0.5"
+    "tslib": "^2.0.0"  
   },
   "peerDependencies": {
     "@angular/common": "^13.0.0",
-    "@angular/core": "^13.0.0",
-    "tslib": "^2.0.0",
+    "@angular/core": "^13.0.0",    
+    "daterangepicker": "^3.0.5",
     "jquery": "^3.6.0",
     "@types/jquery": "^3.5.14"
   },

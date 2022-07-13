@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
+// eslint-disable-next-line import/no-unresolved
 import { DaterangepickerComponent } from './ng2-daterangepicker.component';
 
 describe('Ng2DaterangepickerComponent', () => {

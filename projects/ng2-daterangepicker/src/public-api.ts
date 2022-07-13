@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /*
  * Public API Surface of ng2-daterangepicker
  */

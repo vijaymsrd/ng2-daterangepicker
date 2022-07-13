@@ -95,15 +95,12 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "eslintConfig": ".eslintrc.js",
+            "lintFilePatterns": [
+              "**/*.spec.ts",
+              "**/*.d.ts"
             ]
           }
         },
@@ -128,7 +125,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ng2-daterangepicker/tsconfig.lib.json",
             "project": "projects/ng2-daterangepicker/ng-package.json"
@@ -148,14 +145,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/ng2-daterangepicker/tsconfig.lib.json",
-              "projects/ng2-daterangepicker/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/ng2-daterangepicker/**/*.ts",
+              "projects/ng2-daterangepicker/**/*.html"
             ]
           }
         }
